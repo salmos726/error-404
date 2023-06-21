@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pagina de error 404</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+	  *{
+	  	padding: 0;
+	  	margin: 0;
+	  }
+
+	  body{
+	  	background: #ff6d5b;
+	  }
+
+	  .contenedor{
+	  	width: 98%;
+	  	height: 98vh;
+	  	margin: 1%;  
+	  	background: #fff;	
+	  	border-radius: 8px;
+	  	display: flex;
+	  	align-items: center;
+	    justify-content: center;
+	  }
+
+	  .row{
+	  	width: 90%;
+	  }
+
+	  .rows{
+	  	width: 65%;
+	  }
+
+
+
+	  .dividir{
+	  	float: left;
+	  	width: 50%;  
+	  	height: 70vh;  
+	  }
+
+	  .img{
+	  	padding-top:20px;
+	  	width: 100%;
+	  	margin-bottom: 20px;
+	  }
+
+	  .titulo{
+	  	font-family: 'Space Mono', monospace;
+	  	font-weight: 700;
+	  	font-size: 64px;
+	  	line-height: 94.78px;
+	  	letter-spacing: -0.035em;
+	  	color:#333;
+	  	margin-bottom: 25px;
+	  }
+
+	  .parrafo{
+	  	font-family: 'Space Mono', monospace;
+			font-size: 24px;
+			font-weight: 400;
+			line-height: 36px;
+			letter-spacing: -0.035em;
+			text-align: left;
+			margin-bottom: 50px;
+	  }
+
+	  .boton{
+	  	background: #333;
+	  	width: 216px;
+      height: 68px;
+      display: flex;
+	  	align-items: center;
+	    justify-content: center;
+	    color: #fff;
+	    font-family: 'Space Mono', monospace;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 21px;
+			letter-spacing: -0.035em;
+			text-align: left;
+			text-decoration: none;
+	  }
+
+	  .namepage{
+	  	position: absolute;
+	  	width: 133px;
+			height: 25px;
+			top: 40px;
+			left: 77px;
+      font-family: 'Inconsolata', monospace;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 25px;
+			letter-spacing: -0.08em;
+			text-align: left;
+	  }
+
+	  @media(max-width: 1000px){
+
+	  }
+
+	  @media(max-width: 600px){
+	  	.contenedor{
+	  	width: 98%;
+	  	height: 949px;
+	  	margin: 1%;  
+	  	background: #fff;	
+	  	border-radius: 8px;
+	  	display: flex;
+	  	align-items: center;
+	    justify-content: center;
+	  }
+
+	  .row{
+	  	width: 100%;
+	  }
+
+	  .rows{
+	  	width: 100%;
+	  }
+
+
+
+	  .dividir{
+	  	float: left;
+	  	width: 100%;  
+	  	height: auto;  
+	  }
+
+	  .img{
+	  	padding-top: 0px;
+	  	width: 80%;
+	  	margin-bottom: 56px;
+	  }
+
+	  .titulo{
+	  	font-family: 'Space Mono', monospace;
+	  	font-weight: 700;
+	  	font-size: 48px;
+	  	line-height: 71.09px;
+	  	letter-spacing: -0.035em;
+	  	color:#333;
+	  	margin-bottom: 25px;
+	  	padding-left: 18px;
+	  }
+
+	  .parrafo{
+	  	font-family: 'Space Mono', monospace;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 26.66px;
+			letter-spacing: -0.035em;
+			text-align: left;
+			margin-bottom: 50px;
+			padding-left: 18px;
+	  }
+
+	  .boton{
+	  	background: #333;
+	  	width: 216px;
+      height: 68px;
+      display: flex;
+	  	align-items: center;
+	    justify-content: center;
+	    color: #fff;
+	    font-family: 'Space Mono', monospace;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 21px;
+			letter-spacing: -0.035em;
+			text-align: left;
+			text-decoration: none;
+			margin-left: 18px;
+	  }
+
+	  .namepage{
+	  	position: absolute;
+	  	width: 133px;
+			height: 25px;
+			top: 40px;
+			left: 24px;
+      font-family: 'Inconsolata', monospace;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 25px;
+			letter-spacing: -0.08em;
+			text-align: left;
+	  }
+	  }
+
+
+	</style>
+
+</head>
+<body>
+
+<div class="contenedor">
+	 <h2 class="namepage">404 not found</h2>
+   <div class="row">
+	   	<!--Espacio de la imagen-->
+	   	 <div class="dividir">
+	   	 	  <div class="row" align="center">
+	   	 	  	<img src="Scarecrow.png" class="img">
+	   	 	  </div>
+	   	 </div>
+
+	   	<!--Espacio del texto-->
+	   	<div class="dividir">
+	   		<div class="row"> 
+	   			<h1 class="titulo"> I have bad news for you</h1>
+	   	  	<div class="rows">
+	   			   <p class="parrafo">The page you are looking for might be removed or is temporarily unavailable</p>
+	   			</div>
+	   			<div>
+	   				<a href="#" class="boton">BACK TO HOMEPAGE</a>
+	   			</div>
+	   		</div>
+	   	</div>
+   </div>	
+</div>
+
+</body>
+</html>
+
