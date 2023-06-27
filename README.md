@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="[https://{your-demo-link.your-domain}](https://main--strong-florentine-f6f282.netlify.app/)">
+    <a href="https://main--strong-florentine-f6f282.netlify.app/">
       Demo
     </a>
     <span> | </span>
