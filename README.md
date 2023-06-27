@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="[https://{your-demo-link.your-domain}](https://main--strong-florentine-f6f282.netlify.app/)">
       Demo
     </a>
     <span> | </span>
-    <a href="https://[{your-url-to-the-solution}](https://github.com/salmos726/error-404/blob/main/index.html)">
+    <a href="https://github.com/salmos726/error-404/blob/main/index.html">
       Solution
     </a>
     <span> | </span>
